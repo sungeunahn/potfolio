@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       layoutSlider.slideTo(index, 300);
     });
   });
+  let index = 0;
 
   // 전체 레이아웃용
   const layoutSlider = new Swiper(".layout-slider", {
@@ -17,8 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
     speed: 1000,
     on: {
       slideChangeTransitionEnd: function () {
-        for (let i of menus) i.classList.remove("active");
-        menus[this.activeIndex].classList.add("active");
+        for (let i of menus) {
+          // console.log(index);
+          if (index === menus.length - 1) return;
+          i.classList.remove("active");
+          menus[this.activeIndex].classList.add("active");
+        }
+        index++;
       },
     },
   });

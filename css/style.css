@@ -861,8 +861,8 @@ section {
 .swiper-pagination-web-layer .swiper-pagination-bullet {
   background-color: #989898;
   opacity: 1;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   margin: 0 !important;
   border-radius: 50%;
 }
@@ -955,15 +955,15 @@ section {
 .swiper-pagination1 .swiper-pagination-bullet {
   background-color: #989898;
   opacity: 1;
-  width: 12px;
-  height: 12px;
+  width: 29px;
+  height: 10px;
   margin: 0 !important;
 }
 
 .swiper-pagination1 .swiper-pagination-bullet-active {
   background-color: #f6f6f6;
-  width: 16px;
-  height: 16px;
+  width: 35px;
+  height: 28px;
 }
 
 /* 페이지네이션 스타일 */

@@ -1086,11 +1086,11 @@ section {
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: brightness(0.5);
+  filter: brightness(0.8);
 }
 
 .bottom-slider .swiper-slide-active {
-  border-color: rgba(252, 252, 252, 0.795);
+  border-color: rgba(252, 252, 252, 0.856);
   border-radius: 10px;
   overflow: hidden;
   height: 140px;

@@ -25,7 +25,9 @@ a {
 }
 a:hover {
   text-decoration: none;
-  text-shadow: 0 0 5px #fff, /* 흰색으로 약하게 중심부 빛 표현 */ 0 0 10px #fff,
+  text-shadow:
+    0 0 5px #fff,
+    /* 흰색으로 약하게 중심부 빛 표현 */ 0 0 10px #fff,
     /* 흰색으로 조금 더 넓게 */ 0 0 20px rgb(202, 202, 202),
     /* 빛의 색상 (예: 밝은 파랑) 설정 및 더 넓게 번지게 */ 0 0 40px
       rgb(233, 233, 233); /* 가장 넓게 퍼지는 빛 */
@@ -48,7 +50,9 @@ body {
 }
 
 * {
-  cursor: url("../img/mm.png") 25 10, auto !important;
+  cursor:
+    url("../img/mm.png") 25 10,
+    auto !important;
 }
 
 /* .web,
@@ -118,7 +122,9 @@ header .title::before {
 
 .navbar a.active {
   text-decoration: none;
-  text-shadow: 0 0 5px #fff, /* 흰색으로 약하게 중심부 빛 표현 */ 0 0 10px #fff,
+  text-shadow:
+    0 0 5px #fff,
+    /* 흰색으로 약하게 중심부 빛 표현 */ 0 0 10px #fff,
     /* 흰색으로 조금 더 넓게 */ 0 0 20px rgb(202, 202, 202),
     /* 빛의 색상 (예: 밝은 파랑) 설정 및 더 넓게 번지게 */ 0 0 40px
       rgb(233, 233, 233); /* 가장 넓게 퍼지는 빛 */
@@ -144,7 +150,8 @@ section {
   pointer-events: none;
   user-select: none;
   z-index: 9999;
-  animation: butterflyFlap 1.5s ease-in-out 2,
+  animation:
+    butterflyFlap 1.5s ease-in-out 2,
     butterflyGlowFade 3.5s ease-in-out forwards;
 }
 .butterfly img {
@@ -297,8 +304,8 @@ section {
 }
 
 .profile-info .photo {
-  width: 371px;
-  height: 440px;
+  width: 351px;
+  height: 475px;
   background: #666;
   border-radius: 20px;
   overflow: hidden;
@@ -850,7 +857,9 @@ section {
   height: auto !important;
   z-index: 1015;
   pointer-events: auto;
-  transition: opacity 0.6s ease, visibility 0.6s ease !important;
+  transition:
+    opacity 0.6s ease,
+    visibility 0.6s ease !important;
   display: flex !important;
   gap: 8px;
   justify-content: center;
@@ -1012,7 +1021,9 @@ section {
   width: 60px;
   height: 60px;
   margin: 0;
-  transition: opacity 0.3s, transform 0.3s;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
   pointer-events: all;
 
   border-radius: 50%;
@@ -1211,7 +1222,9 @@ section {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   z-index: 1000;
-  box-shadow: 0 0 4px #fff, 0 0 8px #fff;
+  box-shadow:
+    0 0 4px #fff,
+    0 0 8px #fff;
 }
 
 @keyframes fall {
@@ -1373,7 +1386,9 @@ element.style {
   height: auto !important;
   z-index: 1015;
   pointer-events: auto;
-  transition: opacity 0.6s ease, visibility 0.6s ease !important; /* delay 제거 */
+  transition:
+    opacity 0.6s ease,
+    visibility 0.6s ease !important; /* delay 제거 */
   display: flex !important;
   gap: 8px;
   justify-content: center;
@@ -1634,7 +1649,9 @@ element.style {
   width: 120px;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
 }
 
 .web:hover .butterflyweb {
